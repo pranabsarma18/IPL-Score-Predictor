@@ -1,4 +1,5 @@
 import streamlit as st
+import base64
 import pickle
 import pandas as pd
 import numpy as np

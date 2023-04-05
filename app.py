@@ -25,13 +25,14 @@ st.markdown(
     f"""
     <style>
     .reportview-container {{
-        background: url('https://github.com/pranabsarma18/IPL-Score-Predictor/blob/main/IPL.jpg') no-repeat center center fixed; 
+        background: url(data:image/jpeg;base64,{base64.b64encode(open("IPL.jpg", "rb").read()).decode()});
         background-size: cover;
     }}
     </style>
     """,
     unsafe_allow_html=True
 )
+
 
 
 st.title('IPL Score Predictor')

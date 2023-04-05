@@ -5,7 +5,7 @@ import numpy as np
 import xgboost
 from xgboost import XGBRegressor
 
-pipe = pickle.load(open('pipe.pkl','rb'))
+pipe = pickle.load(open('ipl_model.pkl','rb'))
 
 teams = ['Rajasthan Royals', 'Sunrisers Hyderabad', 'Kings XI Punjab',
        'Royal Challengers Bangalore', 'Chennai Super Kings',

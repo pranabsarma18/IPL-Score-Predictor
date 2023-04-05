@@ -1,2 +1,2 @@
 # IPL-Score-Predictor
-This application predicts 1st innings score of a IPL team
+IPL-Score-Predictor is a web application that predicts the 1st innings score of an IPL team. The application uses machine learning techniques to make predictions based on various features like venue, team etc.

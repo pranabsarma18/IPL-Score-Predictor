@@ -20,6 +20,20 @@ cities = ['Mumbai', 'Kolkata', 'Delhi', 'Chennai', 'Hyderabad', 'Bangalore', 'Ch
         'Visakhapatnam', 'Centurion', 'Rajkot', 'Navi Mumbai', 'Dharamsala', 'Indore', 'Johannesburg', 
         'Port Elizabeth', 'Cuttack', 'Ranchi', 'Cape Town', 'Raipur', 'Kochi']
 
+# Set the background image using CSS
+st.markdown(
+    f"""
+    <style>
+    .reportview-container {{
+        background: url('{https://github.com/pranabsarma18/IPL-Score-Predictor/blob/main/IPL.jpg}') no-repeat center center fixed; 
+        background-size: cover;
+    }}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+
 st.title('IPL Score Predictor')
 
 col1, col2 = st.beta_columns(2)

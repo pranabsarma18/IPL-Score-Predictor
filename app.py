@@ -25,7 +25,7 @@ st.markdown(
     f"""
     <style>
     .reportview-container {{
-        background: url('{https://github.com/pranabsarma18/IPL-Score-Predictor/blob/main/IPL.jpg}') no-repeat center center fixed; 
+        background: url('https://github.com/pranabsarma18/IPL-Score-Predictor/blob/main/IPL.jpg') no-repeat center center fixed; 
         background-size: cover;
     }}
     </style>

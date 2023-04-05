@@ -1,5 +1,4 @@
 import streamlit as st
-import base64
 import pickle
 import pandas as pd
 import numpy as np
@@ -20,21 +19,6 @@ cities = ['Mumbai', 'Kolkata', 'Delhi', 'Chennai', 'Hyderabad', 'Bangalore', 'Ch
         'Pune', 'Jaipur', 'Dubai', 'Abu Dhabi', 'Sharjah', 'Ahmedabad', 'Bengaluru', 'Durban',
         'Visakhapatnam', 'Centurion', 'Rajkot', 'Navi Mumbai', 'Dharamsala', 'Indore', 'Johannesburg', 
         'Port Elizabeth', 'Cuttack', 'Ranchi', 'Cape Town', 'Raipur', 'Kochi']
-
-# Set the background image using CSS
-st.markdown(
-    f"""
-    <style>
-    .reportview-container {{
-        background: url(data:image/jpeg;base64,{base64.b64encode(open("IPL.jpg", "rb").read()).decode()});
-        background-size: cover;
-    }}
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
-
 
 st.title('IPL Score Predictor')
 
